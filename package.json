@@ -1,18 +1,26 @@
 {
   "name": "banco-dados-avancado",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Projeto de automação com Fastify, Bull e AWS SDK",
+  "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "jest"
+    "test": "jest",
+    "build": "echo 'Nenhuma etapa de build necessária — projeto em JavaScript puro'"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/guivahl/banco-dados-avancado.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "fastify",
+    "bull",
+    "aws",
+    "jest",
+    "ci-cd",
+    "pipeline"
+  ],
+  "author": "guivahl",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/guivahl/banco-dados-avancado/issues"
